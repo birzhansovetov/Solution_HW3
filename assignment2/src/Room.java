@@ -14,4 +14,5 @@ public class Room implements CloneableGameEntity {
        public void display() {
         System.out.println(this.name + " " + this.description);
        }
+
 }

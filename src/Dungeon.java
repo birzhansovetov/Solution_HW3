@@ -26,11 +26,11 @@ public class Dungeon {
         this.name = name;
     }
 
-     void addNpc(NPC npc) {
+    public void addNpc(NPC npc) {
         npcs.add(npc);
     }
 
-     void addRoom(Room room ) {
+    public void addRoom(Room room ) {
         rooms.add(room);
     }
     public void showDetails() {
